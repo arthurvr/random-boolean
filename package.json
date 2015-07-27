@@ -26,6 +26,6 @@
     "false"
   ],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "2.2.5"
   }
 }
