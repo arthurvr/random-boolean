@@ -1,7 +1,8 @@
 'use strict';
-var assert = require('assert');
+var test = require('ava');
 var randomBoolean = require('./');
 
-it('should return a random boolean', function () {
-	assert.strictEqual(typeof randomBoolean(), 'boolean');
+test('should return a random boolean', function (t) {
+	t.is(typeof randomBoolean(), 'boolean');
+	t.end();
 });
