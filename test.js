@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var randomBoolean = require('./');
+import test from 'ava';
+import randomBoolean from './';
 
-test('should return a random boolean', function (t) {
+test('should return a random boolean', t => {
 	t.is(typeof randomBoolean(), 'boolean');
 	t.end();
 });
