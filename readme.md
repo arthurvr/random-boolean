@@ -13,7 +13,7 @@ $ npm install --save random-boolean
 ## Usage
 
 ```js
-var randomBoolean = require('random-boolean');
+const randomBoolean = require('random-boolean');
 
 randomBoolean();
 //=> true
