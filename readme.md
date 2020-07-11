@@ -20,6 +20,18 @@ randomBoolean();
 
 randomBoolean();
 //=> false
+
+randomBoolean({bias: 0.25});
+//=> false
+
+randomBoolean({bias: 0.25});
+//=> false
+
+randomBoolean({bias: 0.25});
+//=> true
+
+randomBoolean({bias: 0.25});
+//=> false
 ```
 
 
